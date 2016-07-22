@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% auto;
+    background-image: url("forest.jpg");
+    background-attachment: fixed;}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+    width: auto;
+    background-color: cadetblue;
+}
+
+section{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 80%;
+    background-color: white;
+}
+
+footer{
+
+}
