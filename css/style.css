@@ -8,15 +8,84 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     height: 40px;
     width: auto;
-    background-color: cadetblue;
+}
+
+#headbanner{
+    margin-top: 10px;
+	margin-left: 20%;
+    margin-right: 20%;
+	margin-bottom: 10px;
 }
 
 section{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 80%;
-    background-color: white;
+    margin-top: 140pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgba(255,255,255,0.7)
+    
 }
 
 footer{
 
+}
+
+ul {
+    width: 50%;
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: brown;
+    text-align:center;
+    padding-left:0
+}
+
+li {
+    align-content: center;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: darkred}
+
+.show {display:block;}
+
+#indexpic {
+    margin-left: 30%;
+    margin-right: 30%;
 }
