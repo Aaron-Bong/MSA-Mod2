@@ -18,19 +18,50 @@ header{
 }
 
 section{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    width: 55%;
     margin-top: 140pt;
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: rgba(255,255,255,0.7)
-    
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: rgba(255,255,255,0.7)    
 }
 
+#main h3{
+    color: red;
+}
 footer{
-
+    width: 55%;
+    height: auto;
+    margin-top: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    background-color: #B64C0D;
 }
 
+footer #address {
+    float: left;
+	height: auto;
+	width: auto;
+    text-align: left;
+    color: white;
+}
+
+footer #contacts{
+    float: right;
+	height: auto;
+	width: auto;
+    text-align: left;
+    color: white;
+}
+
+.clear { 
+    clear: both
+}
 ul {
     width: 50%;
     list-style-type: none;
@@ -86,6 +117,6 @@ li.dropdown {
 .show {display:block;}
 
 #indexpic {
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 23%;
+    margin-right: 23%;
 }
