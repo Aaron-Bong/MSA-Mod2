@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- 
+        To collect end-user usage analytics about your application, 
+        insert the following script into each page you want to track.
+        Place this code immediately before the closing </head> tag,
+        and before any other scripts. Your first data will appear 
+        automatically in just a few seconds.
+        -->
+        <script type="text/javascript">
+        var appInsights=window.appInsights||function(config){
+            function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
+            }({
+                instrumentationKey:"15f545ae-09dd-410b-b10d-551b15d0b5ea"
+            });
+            
+            window.appInsights=appInsights;
+            appInsights.trackPageView();
+        </script>
+
+        <title>Save Orangutan</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+        <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script> 
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <script type='text/javascript' src='js/nav.js'></script>
+        <script type='text/javascript' src='js/func.js'></script>
+
+        
+
+    </head>
+    <body>
+        <header>
+                <img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn" onclick="dropDownFunc()">Orangutans</a>
+                    <div class="dropdown-content" id="myDropdown">
+                    <a href="what.html">What Are They?</a>
+                    <a href="why.html">Why Are They Endangered?</a>
+                    <a href="how.html">How Can YOU Help?</a>
+                    </div>
+                </li>
+            </ul>
+        </header>
+        
+        <section>
+            <div id="main">
+                <p>&nbsp;</p>
+                <p>Enter your currency in 3 character abbreviation below (eg: USD):</p>
+                    <input id="input1" type="text" name="from" size="3" maxlength="3">
+                    <p>Enter the amount below:</p>
+                    <input id="input2" type="text" name="amount" style="width: 30%;">
+                    <p>&nbsp;</p>
+                    <button type="" onclick="unirest.get()">Submit</button>
+                    <p>After convertion is:</p>
+                    <p id="result"></p>
+
+
+                <p>&nbsp;</p> 
+            </div>
+
+        </section>
+        
+        <footer>
+            <p>&nbsp;</p>
+            <div class="brand">
+                <h3>ORANGUTAN PROTECTION FOUNDATION</h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Address:</h3>
+                        <h4>Lot 299, Sultan Ahmad City Centre,</h4>
+                        <h4>Ali Abu Hussein Street,</h4>
+                        <h4>55100 Kuala Lumpur, Malaysia.</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Contacts</h3>
+                        <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
+                        <h4>Fax: (+60) 1300-44-9696 </h4>
+                    </div>
+                </div>
+                </div>
+                <p>&nbsp;</p>
+        </footer>
+    </body>
+</html>

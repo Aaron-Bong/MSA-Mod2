@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-size: 100% auto;
+    background-size: 100%;
     background-image: url("forest.jpg");
     background-attachment: fixed;}
 
@@ -11,6 +11,8 @@ header{
 }
 
 #headbanner{
+    width: 60%;
+    height: auto;
     margin-top: 10px;
 	margin-left: 20%;
     margin-right: 20%;
@@ -26,7 +28,7 @@ section{
     margin-right: 20%;
     padding-left: 2.5%;
     padding-right: 2.5%;
-    background-color: rgba(255,255,255,0.7)    
+    background-color: rgba(255,255,255,0.75)    
 }
 
 #main h3{
@@ -43,26 +45,27 @@ footer{
     background-color: #B64C0D;
 }
 
-footer #address {
-    float: left;
-	height: auto;
-	width: auto;
-    text-align: left;
+footer .brand {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    
+
+
+}
+footer h4{
+
     color: white;
 }
 
-footer #contacts{
-    float: right;
-	height: auto;
-	width: auto;
-    text-align: left;
+footer h3 {
+
     color: white;
 }
 
-.clear { 
-    clear: both
-}
-ul {
+header ul {
     width: 50%;
     list-style-type: none;
     margin: auto;
@@ -72,13 +75,13 @@ ul {
     padding-left:0
 }
 
-li {
+header li {
     align-content: center;
     display: inline-block;
     padding: 0 1rem;
 }
 
-li a, .dropbtn {
+header li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -87,15 +90,15 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+header li a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
-li.dropdown {
+header li.dropdown {
     display: inline-block;
 }
 
-.dropdown-content {
+header .dropdown-content {
     display: none;
     position: absolute;
     z-index: 1000;
@@ -104,7 +107,7 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
+header .dropdown-content a {
     color: white;
     padding: 12px 16px;
     text-decoration: none;
@@ -112,11 +115,14 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: darkred}
+header .dropdown-content a:hover {background-color: darkred}
 
-.show {display:block;}
+header .show {display:block;}
 
+/* 
 #indexpic {
     margin-left: 23%;
     margin-right: 23%;
 }
+*/
+

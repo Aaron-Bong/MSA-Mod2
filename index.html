@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-                <!-- 
+        <!-- 
         To collect end-user usage analytics about your application, 
         insert the following script into each page you want to track.
         Place this code immediately before the closing </head> tag,
@@ -22,16 +22,23 @@
         <title>Save Orangutan</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+         <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+         -->
+        
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+        <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script> 
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
         <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+        <script type='text/javascript' src='js/nav.js'></script>
         
-        <script type='text/javascript' src='script.js'></script>
-
-        
-
     </head>
     <body>
         <header>
-                <p><img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins"></p>
+                <img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins">
             <ul>
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -49,7 +56,7 @@
         <section>
             <div id="main">
                 <p>&nbsp;</p>
-                <p><img src="css/pic 1.jpg" id="indexpic" width="450" height="297"   alt="Picture of a child ptotecting an Orangutan"/></p>
+                <img src="css/pic 1.jpg" id="indexpic" width="60%" height="auto" style="margin-left: 20%; margin-right: 20%; horizontal-align: center;"  alt="Picture of a child ptotecting an Orangutan"/>
                 <h3><strong>A crisis exists for orangutans</strong></h3>
                 <p>In 2015, scientist believed that  there are only about 40,000 orangutans  remaining in Borneo and  Sumatra. At this rate of loss, many experts estimate orangutans could be extinct in the wild in <strong>less than 25 years</strong>.</p>
                 <p>Never before  has their very existence been threatened so severely. Economic crisis  combined with natural disasters and human abuse of the forest are  pushing one of humankind&rsquo;s closest cousins to extinction. </p>
@@ -60,19 +67,26 @@
         </section>
         
         <footer>
-            <div id="address">
-                <h4>ORANGUTAN PROTECTION FOUNDATION</h4>
-                <h4>Address:</h4>
-                <h4>Lot 299, Sultan Ahmad City Centre,</h4>
-                <h4>Ali Abu Hussein Street,</h4>
-                <h4>55100 Kuala Lumpur, Malaysia.</h4>
+            <p>&nbsp;</p>
+            <div class="brand">
+                <h3>ORANGUTAN PROTECTION FOUNDATION</h3>
             </div>
-            <div id="contacts">
-                <h4>Contacts</h4>
-                <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
-                <h4>Fax: (+60) 1300-44-9696 </h4>
-            </div>
-            <div class="clear"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h3>Address:</h3>
+                        <h4>Lot 299, Sultan Ahmad City Centre,</h4>
+                        <h4>Ali Abu Hussein Street,</h4>
+                        <h4>55100 Kuala Lumpur, Malaysia.</h4>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Contacts</h3>
+                        <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
+                        <h4>Fax: (+60) 1300-44-9696 </h4>
+                    </div>
+                </div>
+                </div>
+                <p>&nbsp;</p>
         </footer>
     </body>
 </html>
