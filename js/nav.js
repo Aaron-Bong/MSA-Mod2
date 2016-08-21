@@ -2,6 +2,7 @@
 toggle hiding or showing the dropdown content */
 function dropDownFunc() {
     document.getElementById("myDropdown").classList.toggle("show");
+    console.log("toggle shown")
 }
 
 // Close dropdown if user clicks outside of it

@@ -1,6 +1,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-size: 100%;
+    background-size: cover;
     background-image: url("forest.jpg");
     background-attachment: fixed;}
 
@@ -22,7 +22,7 @@ header{
 section{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
-    width: 55%;
+    width: 60%;
     margin-top: 140pt;
     margin-left: 20%;
     margin-right: 20%;
@@ -35,7 +35,7 @@ section{
     color: red;
 }
 footer{
-    width: 55%;
+    width: 60%;
     height: auto;
     margin-top: auto;
     margin-left: 20%;
@@ -52,8 +52,11 @@ footer .brand {
     margin-right: 10%;
     text-align: center;
     
+}
 
-
+footer .container {
+    padding-left: 12%; 
+    padding-right: 12%;
 }
 footer h4{
 
@@ -90,11 +93,11 @@ header li a, .dropbtn {
     text-decoration: none;
 }
 
-header li a:hover, .dropdown:hover .dropbtn {
+header li a:hover, .myDropdown:hover .dropbtn {
     background-color: red;
 }
 
-header li.dropdown {
+header li.myDropdown {
     display: inline-block;
 }
 
