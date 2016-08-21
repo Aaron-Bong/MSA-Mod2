@@ -23,7 +23,7 @@ section{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
     width: 60%;
-    margin-top: 140pt;
+    margin-top: 120pt;
     margin-left: 20%;
     margin-right: 20%;
     padding-left: 2.5%;
@@ -129,3 +129,6 @@ header .show {display:block;}
 }
 */
 
+#result{
+    font-size: 14pt;
+}

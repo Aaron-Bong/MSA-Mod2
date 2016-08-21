@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- 
+
+<head>
+    <!-- 
         To collect end-user usage analytics about your application, 
         insert the following script into each page you want to track.
         Place this code immediately before the closing </head> tag,
         and before any other scripts. Your first data will appear 
         automatically in just a few seconds.
         -->
-        <script type="text/javascript">
+    <script type="text/javascript">
         var appInsights=window.appInsights||function(config){
             function r(config){t[config]=function(){var i=arguments;t.queue.push(function(){t[config].apply(t,i)})}}var t={config:config},u=document,e=window,o="script",s=u.createElement(o),i,f;s.src=config.url||"//az416426.vo.msecnd.net/scripts/a/ai.0.js";u.getElementsByTagName(o)[0].parentNode.appendChild(s);try{t.cookie=u.cookie}catch(h){}for(t.queue=[],i=["Event","Exception","Metric","PageView","Trace","Dependency"];i.length;)r("track"+i.pop());return r("setAuthenticatedUserContext"),r("clearAuthenticatedUserContext"),config.disableExceptionTracking||(i="onerror",r("_"+i),f=e[i],e[i]=function(config,r,u,e,o){var s=f&&f(config,r,u,e,o);return s!==!0&&t["_"+i](config,r,u,e,o),s}),t
             }({
@@ -19,77 +20,82 @@
             appInsights.trackPageView();
         </script>
 
-        <title>Save Orangutan</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Save Orangutan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
-        <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script> 
-        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-        <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
-        <script type='text/javascript' src='js/nav.js'></script>
-        
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
+    <script type='text/javascript' src='js/nav.js'></script>
 
-    </head>
-    <body>
-        <header>
-                <img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins">
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li class="myDropdown">
-                    <a href="javascript:void(0)" class="dropbtn" onclick="dropDownFunc()">Orangutans</a>
-                    <div class="dropdown-content" id="myDropdown">
-                    <a href="what.html">What Are They?</a>
+
+</head>
+
+<body>
+    <header>
+        <img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins">
+        <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li class="myDropdown">
+                <a href="javascript:void(0)" class="dropbtn" onclick="dropDownFunc()">Orangutans</a>
+                <div class="dropdown-content" id="myDropdown">
+                    <!--<a href="what.html">What Are They?</a>-->
                     <a href="why.html">Why Are They Endangered?</a>
                     <a href="how.html">How Can YOU Help?</a>
-                    </div>
-                </li>
-            </ul>
-        </header>
-        
-        <section>
-            <div id="main">
-                <p>&nbsp;</p>
-                <img src="css/pic 2.jpg" id="aboutpic1" width="60%" height="auto" style="margin-left: 23%;margin-right: 23%;" alt=""/>
-                <h3><strong>Our Mission</strong></h3>
-                <p>We are dedicated to the protection of orangutans in their natural habitat through research, capacity building, 
-                    education and public awareness programs, and by supporting numerous on-the-ground efforts to save Southeast Asia’s only great ape.</p>
-                
-                <h3><strong>we carry out this mission as follows:</strong></h3>
-                <ul id="missState">
-                    <li >By providing funding and logistical support to a variety of orangutan protection programs</li>
-                    <li >By providing funding to various wildlife research programs in Indonesia that support and coordinate orangutan conservation</li>
-                    <li >By staging the annual OC/OVAG Veterinary Workshop in Indonesia where orangutan wildlife vets share their knowledge</li>
-                    <li >By improving public awareness of the plight of the orangutan and their habitats on Borneo and Sumatra</li>
-                </ul>
-                <p>&nbsp;</p> 
-            </div>
+                </div>
+            </li>
+        </ul>
+    </header>
 
-        </section>
-        
-        <footer>
+    <section>
+        <div id="main">
             <p>&nbsp;</p>
-            <div class="brand">
-                <h3>ORANGUTAN PROTECTION FOUNDATION</h3>
+            <img src="css/pic 2.jpg" id="aboutpic1" width="60%" height="auto" style="margin-left: 23%;margin-right: 23%;" alt="" />
+            <h3><strong>Our Mission</strong></h3>
+            <p>We are dedicated to the protection of orangutans in their natural habitat through research, capacity building,
+                education and public awareness programs, and by supporting numerous on-the-ground efforts to save Southeast
+                Asia’s only great ape.</p>
+
+            <h3><strong>we carry out this mission as follows:</strong></h3>
+            <ul id="missState">
+                <li>By providing funding and logistical support to a variety of orangutan protection programs</li>
+                <li>By providing funding to various wildlife research programs in Indonesia that support and coordinate orangutan
+                    conservation</li>
+                <li>By staging the annual OC/OVAG Veterinary Workshop in Indonesia where orangutan wildlife vets share their
+                    knowledge</li>
+                <li>By improving public awareness of the plight of the orangutan and their habitats on Borneo and Sumatra</li>
+            </ul>
+            <p>&nbsp;</p>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&nbsp;</p>
+        <div class="brand">
+            <h3>ORANGUTAN PROTECTION FOUNDATION</h3>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3>Address:</h3>
+                    <h4>Lot 299, Sultan Ahmad City Centre,</h4>
+                    <h4>Ali Abu Hussein Street,</h4>
+                    <h4>55100 Kuala Lumpur, Malaysia.</h4>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Contacts</h3>
+                    <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
+                    <h4>Fax: (+60) 1300-44-9696 </h4>
+                </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <h3>Address:</h3>
-                        <h4>Lot 299, Sultan Ahmad City Centre,</h4>
-                        <h4>Ali Abu Hussein Street,</h4>
-                        <h4>55100 Kuala Lumpur, Malaysia.</h4>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3>Contacts</h3>
-                        <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
-                        <h4>Fax: (+60) 1300-44-9696 </h4>
-                    </div>
-                </div>
-                </div>
-                <p>&nbsp;</p>
-        </footer>
-    </body>
+        </div>
+        <p>&nbsp;</p>
+    </footer>
+</body>
+
 </html>
