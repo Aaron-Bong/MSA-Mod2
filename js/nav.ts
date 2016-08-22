@@ -10,7 +10,7 @@ function dropDownFunc(): void {
 window.onclick = function (e: MouseEvent) {
   if (!e.target.matches('.dropbtn')) {
 
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns: NodeListOf<Element> = document.getElementsByClassName("dropdown-content");
     for (var d: number = 0; d < dropdowns.length; d++) {
       var openDropdown: Element = dropdowns[d];
       if (openDropdown.classList.contains('show')) {

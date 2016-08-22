@@ -1,4 +1,5 @@
 /// <reference path="typings/index.d.ts" />
+
 /* When button is clicked by user,
 toggle hiding or showing the dropdown content */
 function dropDownFunc() {

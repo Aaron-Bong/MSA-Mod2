@@ -18,7 +18,7 @@
             
             window.appInsights=appInsights;
             appInsights.trackPageView();
-        </script>
+    </script>
 
     <title>Save Orangutan</title>
     <meta charset="UTF-8">
@@ -28,14 +28,10 @@
     <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-
     <link href="css/style.css" rel="stylesheet" type="text/css" media="screen">
     <script type='text/javascript' src='js/nav.js'></script>
     <script type='text/javascript' src='js/thanks.js'></script>
     <script type='text/javascript' src='js/api.js'></script>
-
-
-
 </head>
 
 <body>
@@ -50,14 +46,12 @@
                 <li class="myDropdown">
                     <a href="javascript:void(0)" class="dropbtn" onclick="dropDownFunc()">Orangutans</a>
                     <div class="dropdown-content" id="myDropdown">
-                        <!--<a href="what.html">What Are They?</a>-->
                         <a href="why.html">Why Are They Endangered?</a>
                         <a href="how.html">How Can YOU Help?</a>
                     </div>
                 </li>
             </ul>
         </div>
-
     </header>
 
     <section>
@@ -65,7 +59,8 @@
             <p>&nbsp;</p>
             <h3><strong>a) Fundraising</strong></h3>
             <p>We would like to help such people support fundraising projects to benefit OPF and its conservation education
-                programs.</p>
+                programs.
+            </p>
             <p>To do that we are creating personal fundraising pages for anyone with a desire to seek donations from friends,
                 family and other people inspired by the call to action.</p>
             <p><strong>Think about it:</strong> You can have your own fundraising page to raise money for: an Orangutan Caring
@@ -80,32 +75,28 @@
             <p>Nationality : <input id="natInput" type="text" name="nationality" style="width: 30%;"></p>
             <p>&nbsp;</p>
             <p><strong>Please fill in your payment details below:</strong></p>
-            <p>Credit Card Number : <input id="creditNoInput" type="text" name="creditCardNumber" style="width: 38%;"></p>
-            <p>Amount &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input id="amountInput" type="text"
+            <p>Credit Card Number : <input id="creditNoInput" type="tel" pattern="[0-9\-]+" name="creditCardNumber" style="width: 38%;"></p>
+            <p>Amount &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input id="amountInput" type="number" step="0.01"
                     name="amount" placeholder="Must be in Malaysian Ringgit (MYR)" style="width: 38%;"></p>
             <p>&nbsp;</p>
-            <!--<button id="button1" type="" onclick="">Donate</button>-->
             <input id="Button1" type="button" value="Donate" />
-
 
             <p>&nbsp;</p>
             <div id=currency>
                 <p><strong>Donating in other currency? Use the Currency Converter Below to convert to MYR.</strong></p>
                 <p>Please enter your currency in 3 character abbreviation (eg: USD). Please note that not all currencies are
-                    supported.</p>
+                    supported.
+                </p>
                 <p>Currency : <input id="input1" type="text" name="from" size="3" maxlength="3"></p>
-                <p>Amount &nbsp; : <input id="input2" type="text" name="amount" style="width: 30%;"></p>
+                <p>Amount &nbsp; : <input id="input2" type="number" step="0.01" name="amount" style="width: 30%;"></p>
                 <p>&nbsp;</p>
                 <button id="button2" type="" onclick="donate()">Convert</button>
-                <p>Convertion to MYR is (output 0 if currency not supported):</p>
+                <p>Conversion to MYR is (output 0 if currency not supported):</p>
                 <h5 id="result"></h5>
                 <p>&nbsp;</p>
             </div>
-
-
             <p>&nbsp;</p>
         </div>
-
     </section>
 
     <footer>

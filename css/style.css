@@ -1,16 +1,10 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: cover;
-    background-image: url("forest.jpg");
-    background-attachment: fixed;}
-
-header{
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 40px;
     width: auto;
 }
 
-#headbanner{
+header #headbanner {
+    position: static;
     width: 60%;
     height: auto;
     margin-top: 10px;
@@ -19,11 +13,19 @@ header{
 	margin-bottom: 10px;
 }
 
-section{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-image: url("forest.jpg");
+    background-attachment: fixed;
+}
+
+section {
+    position: static;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
     width: 60%;
-    margin-top: 120pt;
+    margin-top: 10pt;
     margin-left: 20%;
     margin-right: 20%;
     padding-left: 2.5%;
@@ -31,10 +33,11 @@ section{
     background-color: rgba(255,255,255,0.75)    
 }
 
-#main h3{
-    color: red;
-}
-footer{
+section #main h3 {color: red;}
+
+section #result {font-size: 14pt;}
+
+footer {
     width: 60%;
     height: auto;
     margin-top: auto;
@@ -51,20 +54,19 @@ footer .brand {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
-    
 }
 
 footer .container {
     padding-left: 12%; 
     padding-right: 12%;
 }
-footer h4{
+
+footer h4 {
 
     color: white;
 }
 
 footer h3 {
-
     color: white;
 }
 
@@ -102,6 +104,8 @@ header li.myDropdown {
 }
 
 header .dropdown-content {
+    width: 24%;
+    height: auto;
     display: none;
     position: absolute;
     z-index: 1000;
@@ -121,14 +125,3 @@ header .dropdown-content a {
 header .dropdown-content a:hover {background-color: darkred}
 
 header .show {display:block;}
-
-/* 
-#indexpic {
-    margin-left: 23%;
-    margin-right: 23%;
-}
-*/
-
-#result{
-    font-size: 14pt;
-}
