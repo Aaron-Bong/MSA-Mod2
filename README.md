@@ -8,8 +8,8 @@ Basic features used:
 1. Hosted and published on Microsoft Azure
 2. HTML5, CSS (Responsive Design), and Bootstrap.
 3. TypeScript 
-4. API call
-4. GitHub for Source Control, and Open Source. GitHub web address is: https://github.com/Aaron-Bong/MSA-Mod2.git
+4. API call- Currency Converter. API provided by https://market.mashape.com/explore
+5. GitHub for Source Control, and Open Source. GitHub web address is: https://github.com/Aaron-Bong/MSA-Mod2.git
 
 Advace feature used:
 1. Implemented Application Insights for all pages.
