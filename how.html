@@ -24,7 +24,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    
+
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    
     <script type='text/javascript' src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
@@ -32,9 +35,11 @@
     <script type='text/javascript' src='js/nav.js'></script>
     <script type='text/javascript' src='js/thanks.js'></script>
     <script type='text/javascript' src='js/api.js'></script>
+    <script type="text/javascript">alert("Please do not input any of your info at this web page. The donation form is for prototyping purposes only. You can use the currency converter.");</script>
 </head>
 
 <body>
+    
     <header>
         <div>
             <img src="css/header.png" id="headbanner" alt="Save Orangutan, Our Brown-haired Cousins">
@@ -58,7 +63,7 @@
         <div id="main">
             <p>&nbsp;</p>
             <h3><strong>a) Fundraising</strong></h3>
-            <p>We would like to help such people support fundraising projects to benefit OPF and its conservation education
+            <p>We would like to help such people support fundraising projects to benefit the organisation and its conservation education
                 programs.
             </p>
             <p>To do that we are creating personal fundraising pages for anyone with a desire to seek donations from friends,
@@ -76,8 +81,8 @@
             <p>&nbsp;</p>
             <p><strong>Please fill in your payment details below:</strong></p>
             <p>Credit Card Number : <input id="creditNoInput" type="tel" pattern="[0-9\-]+" name="creditCardNumber" style="width: 38%;"></p>
-            <p>Amount &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input id="amountInput" type="number" step="0.01"
-                    name="amount" placeholder="Must be in Malaysian Ringgit (MYR)" style="width: 38%;"></p>
+            <p>Amount &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : <input id="amountInput" type="number"
+                    step="0.01" name="amount" placeholder="Must be in Malaysian Ringgit (MYR)" style="width: 38%;"></p>
             <p>&nbsp;</p>
             <input id="Button1" type="button" value="Donate" />
 
@@ -102,7 +107,7 @@
     <footer>
         <p>&nbsp;</p>
         <div class="brand">
-            <h3>ORANGUTAN PROTECTION FOUNDATION</h3>
+            <h3>LOVE ORANGUTAN ORGANISATION</h3>
         </div>
         <div class="container">
             <div class="row">
@@ -113,11 +118,24 @@
                     <h4>55100 Kuala Lumpur, Malaysia.</h4>
                 </div>
                 <div class="col-sm-4">
-                    <h3>Contacts</h3>
-                    <h4>Toll-free Tell: (+60) 1300-44-9595</h4>
-                    <h4>Fax: (+60) 1300-44-9696 </h4>
+                    <h3>Web developed and designed by:</h3>
+                    <h4>Aaron Bong</h4>
+                    <a href="https://nz.linkedin.com/in/aaronbong">
+
+                        <img src="https://static.licdn.com/scds/common/u/img/webpromo/btn_myprofile_160x33.png" width="160" height="33" border="0"
+                            alt="View Aaron Chin Yit Bong's profile on LinkedIn">
+
+                    </a>
                 </div>
             </div>
+        </div>
+        <p>&nbsp;</p>
+        <div id="warning-footer">
+            <p>
+                Please note that this organisation does not exist. All names and contacts of this website are NOT true. It is for prototyping
+                purposes only. All images and media used belonged to their respective owners. Please do not input any of
+                your info at this website.
+            </p>
         </div>
         <p>&nbsp;</p>
     </footer>
